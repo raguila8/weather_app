@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+.jumbotron {
+  background-color: rgba(238,238,238, 0.8);
+}
+
+.g-ma-40 {
+  margin: 40px;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.btn-group button {
+    background-color: #eee;
+    border: 1px solid #bbb; 
+    color: #333; 
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #d5d5d5;
+}
+
+.selected {
+  background-color: #d5d5d5 !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.error {
+  background-color: red;
+}
